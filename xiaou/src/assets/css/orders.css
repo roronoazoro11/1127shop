@@ -1,0 +1,312 @@
+@charset "utf-8";
+.flexBet {
+  display: flex;
+  justify-content: space-between;
+}
+.page {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.headCon .meau {
+  display: flex;
+  justify-content: space-between;
+  width: 0.55rem;
+}
+.headCon .meau span {
+  width: 0.12rem;
+  height: 0.12rem;
+  border-radius: 50%;
+  background: black;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 0 0.5rem;
+  width: 100%;
+  height: 1.2rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-top: 1px solid #ebebeb;
+}
+.footer a {
+  text-align: center;
+}
+.footer a img {
+  width: auto;
+  height: 0.53rem;
+}
+.footer a p {
+  font: 0.2rem/0.4rem "微软雅黑";
+  color: #898989;
+}
+.flexBet {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: #f1f1f1;
+}
+.headCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.88rem;
+  padding: 0.4rem 0.29rem 0;
+  background-color: #f26b11;
+}
+.headCon a {
+  display: inline-block;
+  position: relative;
+  width: 0.15rem;
+  height: 0.28rem;
+}
+.headCon a::before,
+.headCon a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  border-right: 0.15rem solid #fff;
+  border-top: 0.15rem solid transparent;
+  border-bottom: 0.15rem solid transparent;
+}
+.headCon a::after {
+  left: 0.03rem;
+  border-right-color: #f26b11;
+}
+.headCon p:nth-of-type(1) {
+  font: 0.35rem "微软雅黑";
+  color: #fff;
+}
+.headCon .meau span {
+  background: #fff;
+}
+.userinfo {
+  height: 1.51rem;
+  padding: 0 0.26rem 0 0.36rem;
+  background-color: #fff;
+  margin-bottom: 0.11rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userinfo p {
+  font: 0.24rem/0.3rem "微软雅黑";
+  color: #686868;
+}
+.userinfo .txt > div {
+  display: flex;
+  justify-content: space-between;
+}
+.userinfo .txt > div:nth-of-type(1) {
+  margin-right: 0.72rem;
+  margin-bottom: 0.16rem;
+}
+.userinfo .txt > div:nth-of-type(2) {
+  margin-right: 0.2rem;
+}
+.userinfo .txt > div:nth-of-type(2) > p:nth-of-type(2) {
+  width: 5.2rem;
+}
+.userinfo a img {
+  width: auto;
+  height: 0.26rem;
+}
+.item {
+  background-color: #fff;
+}
+.item > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0.26rem;
+}
+.item > div:nth-of-type(1) > div:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+  height: 1.02rem;
+  align-items: center;
+  padding: 0.23rem 0 0 0.33rem;
+}
+.item > div:nth-of-type(1) img {
+  width: auto;
+  height: 1.02rem;
+}
+.item > div:nth-of-type(1) .info p {
+  margin-left: 0.3rem;
+  font: 0.23rem "微软雅黑";
+  color: #676767;
+}
+.item > div:nth-of-type(1) .info p:nth-of-type(2) {
+  margin-top: 0.24rem;
+  color: #bababa;
+}
+.item > div:nth-of-type(1) p {
+  font: 0.19rem Arial;
+  color: #cd4338;
+}
+.item > div:nth-of-type(1) p span {
+  font-size: 0.29rem;
+}
+.item > div:nth-of-type(2) {
+  height: 1.38rem;
+  padding-left: 0.17rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.item > div:nth-of-type(2) p {
+  font: 0.23rem "微软雅黑";
+  color: #656565;
+}
+.item > div:nth-of-type(2) div span {
+  float: left;
+  width: 0.73rem;
+  height: 0.63rem;
+  text-align: center;
+  font: 0.3rem/0.57rem Arial;
+  border-radius: 0.05rem;
+  border: 1px solid #515151;
+  margin-right: 0.09rem;
+}
+.item > div:nth-of-type(2) div span:nth-of-type(2) {
+  margin-right: 0;
+}
+.item > div:nth-of-type(2) div input {
+  float: left;
+  width: 1.18rem;
+  height: 0.63rem;
+  text-align: center;
+  margin-right: 0.09rem;
+  border-radius: 0.05rem;
+  border: 1px solid #515151;
+}
+.item > div:nth-of-type(3) {
+  padding-left: 0.17rem;
+  height: 0.97rem;
+}
+.item > div:nth-of-type(3) p {
+  font: 0.23rem "微软雅黑";
+  color: #656565;
+}
+.count {
+  background-color: #fff;
+}
+.count > div {
+  display: flex;
+  justify-content: space-between;
+  height: 1.01rem;
+  align-items: center;
+  padding: 0 0.27rem;
+}
+.count > div p {
+  font: 0.23rem "微软雅黑";
+  color: #646464;
+}
+.count > div:nth-of-type(1) {
+  border-bottom: 0.02rem solid #f1f1f1;
+}
+.count > div:nth-of-type(1) p:nth-of-type(2) {
+  color: #656565;
+}
+.count > div:nth-of-type(2) div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.count > div:nth-of-type(2) div input {
+  width: 1.49rem;
+  height: 0.7rem;
+  text-align: center;
+  margin-right: 0.09rem;
+  border-radius: 0.06rem;
+  border: 0.02rem solid #e6e6e6;
+}
+.count > div:nth-of-type(2) div a {
+  display: block;
+  width: 0.69rem;
+  height: 0.7rem;
+  text-align: center;
+  font: 0.23rem/0.7rem "微软雅黑";
+  color: #fff;
+  margin-right: 0.19rem;
+  border-radius: 0.06rem;
+  background-color: #f26b11;
+}
+.count > div:nth-of-type(2) div p span {
+  color: #cd4338;
+}
+.countinfo {
+  background-color: #fff;
+  padding: 0.24rem 0.27rem 1.2rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #efefef;
+}
+.countinfo p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.45rem;
+  font: 0.23rem "微软雅黑";
+  color: #616161;
+}
+.countinfo p span {
+  font: 0.19rem "微软雅黑";
+  color: #ea3e4c;
+}
+.countinfo p:nth-of-type(5) {
+  padding-bottom: 1px solid #efefef;
+}
+.countinfo div {
+  display: flex;
+  justify-content: space-between;
+  height: 1.26rem;
+  align-items: center;
+}
+.countinfo div p {
+  font: 0.35rem "微软雅黑";
+}
+.countinfo div p span {
+  font-size: 0.35rem;
+  color: #ea3e4c;
+}
+.countinfo a {
+  display: block;
+  width: 3.55rem;
+  margin: 0 auto 0.15rem;
+  height: 1.12rem;
+  font: 0.29rem/1.12rem "微软雅黑";
+  text-align: center;
+  color: #fff;
+  border-radius: 0.05rem;
+  background-color: #f26b11;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 0 0.5rem;
+  width: 100%;
+  height: 1.2rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-top: 1px solid #ebebeb;
+}
+.footer a {
+  text-align: center;
+}
+.footer a img {
+  width: auto;
+  height: 0.53rem;
+}
+.footer a p {
+  font: 0.2rem/0.4rem "微软雅黑";
+  color: #898989;
+}
